@@ -1,4 +1,18 @@
+.navbar{
+    background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url("https://image.freepik.com/free-vector/instagram-background-in-gradient-colors_23-2147821882.jpg");
+}
+.btn{
+    color:black;
+    border:1px black solid;
+}
+.btn:hover{
+    color:white;
+    background-color: black;
+        border:1px white solid;
 
+}
 body {
     padding-top: 200px;
    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -9,6 +23,19 @@ body {
 }
 
 footer {
+    background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url("https://image.freepik.com/free-vector/instagram-background-in-gradient-colors_23-2147821882.jpg");
     padding-top: 100px;
     margin: 50px 0;
+
+}
+.display{
+    display: flex;
+    justify-content:space-around;
+}
+.img{
+    border:solid 5px blue;
+        height:300px;
+    margin:10px;
 }
